@@ -76,10 +76,11 @@ button:hover {
     margin-bottom: 0.8rem;
 }
 
-.button.cancel {
+.button-cancel {
     color: var(--red);
     border: 2px var(--red) solid;
     border-radius: 0.25rem;
+    width: 48%;
     height: 50px;
     display: flex;
     align-items: center;
@@ -87,8 +88,9 @@ button:hover {
     opacity: 0.6;
 }
 
-.button.cancel:hover {
+.button-cancel:hover {
     opacity: 1;
+    color: #b41e1e;
 }
 
 /* Header ===================== */
